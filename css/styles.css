@@ -625,7 +625,7 @@ img {
 
 .modal-form-input {
     width: 100%;
-    border: 1px solid #4d5ae5;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     height: 40px;
     padding: 14px 38px;
@@ -634,11 +634,20 @@ img {
     transition: 300ms;
 }
 
-.modal-form-icon {
-    position: absolute;
-    top: 50%;
-    left: 16px;
-    transform: translateY(-50%);
+.modal-form-input:focus-visible {
+  border-color: #4d5ae5;
+}
 
-    pointer-events: none;
+.modal-form-icon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+
+  pointer-events: none;
+  fill: #2E2F42;
+}
+
+.modal-form-input:focus + .modal-form-icon {
+  fill: #4d5ae5;
 }
