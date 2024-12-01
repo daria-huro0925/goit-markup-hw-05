@@ -577,7 +577,7 @@ margin-left: 80px;
 
 .footer-subscribe-form {
   display: flex;
-  /* gap: 24px;  */
+  gap: 24px; 
 }
 
 .footer-subscribe-label {}
@@ -605,7 +605,7 @@ margin-left: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 24px;
+  
 
   min-width: 165px;
   height: 40px;
