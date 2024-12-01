@@ -580,7 +580,9 @@ margin-left: 80px;
   gap: 24px; 
 }
 
-.footer-subscribe-label {}
+.footer-subscribe-label {
+
+}
 
 .footer-subscribe-input {
   width: 264px;
