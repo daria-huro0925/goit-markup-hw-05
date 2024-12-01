@@ -562,52 +562,6 @@ img {
   fill: #f4f4fd;
 }
 
-/* Region Subscribe */
-
-.footer-subscribe {}
-
-.modal-form {
-  margin-left: 80px;
-}
-
-.footer-subscribe-label {
-  font: 500 16px / 150% "Roboto", sans-serif;
-  letter-spacing: 0.02em;
-  color: #fff;
-}
-
-.footer-subscribe-input {
-    display: flex;
-    margin-top: 16px;
-    border: 1px solid #fff;
-    border-radius: 4px;
-    width: 264px;
-    height: 40px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-
-    background-color: inherit;
-
-}
-
-.footer-subscribe-input::placeholder { 
-  font: 400 12px / 200% "Roboto", sans-serif;
-    letter-spacing: 0.04em;
-    color: #fff;
-}
-
-.button {
-  border-radius: 4px;
-  padding: 8px 24px;
-  width: 165px;
-  height: 40px;
-
-  background: #4d5ae5;
-}
-
-.footer-button-icon {
-  
-}
-
 /* Region Modal */
 
 .backdrop {
