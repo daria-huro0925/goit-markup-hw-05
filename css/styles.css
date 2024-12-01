@@ -589,6 +589,7 @@ margin-left: 80px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
+  padding-left: 16px;
 
   font-size: 12px;
   line-height: 2;
@@ -683,7 +684,7 @@ margin-left: 80px;
   position: absolute;
   top: 24px;
   right: 24px;
-  
+
   border-radius: 50%;
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
