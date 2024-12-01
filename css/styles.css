@@ -596,9 +596,9 @@ img {
     min-height: 584px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background: #fcfcfc;
-    padding: 72px 24px;
+    padding: 72px 24px 24px 24px;
 
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-open .modal {
@@ -621,14 +621,14 @@ img {
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
 
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: background-color, border-color;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: #404BBF;
-  border-color: #404BBF;
+  border: none;
 }
 
 .modal-btn:hover .modal-btn-close,
@@ -654,7 +654,7 @@ img {
 .modal-form {}
 
 .modal-form-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-form-label {
@@ -677,6 +677,7 @@ img {
     height: 40px;
     padding: 14px 38px;
 
+    background-color: transparent;
     outline: transparent;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border-color;
@@ -694,6 +695,8 @@ img {
 
   pointer-events: none;
   fill: #2e2f42;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-input:focus + .modal-form-icon {
@@ -708,6 +711,7 @@ img {
   height: 120px;
   resize: none;
   padding: 8px 16px;
+  background-color: transparent;
 
   font: 400 12px / 117% "Roboto", sans-serif;
   letter-spacing: 0.04em;
@@ -728,7 +732,7 @@ img {
 /* Custom Checkbox ver.1 */
 
 .modal-form-agreement {
-  margin-top: 16px;
+  margin-bottom: 24px;
 }
 
 .modal-form-agreement-text {
@@ -750,16 +754,16 @@ img {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   cursor: pointer;
+  fill: transparent;
 
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: border-color, background-color;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-checkbox-icon {}
 
 input[type="checkbox"]:checked + .modal-form-agreement-text .modal-form-checkbox {
-  border-color: #404bbf;
-  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
 } 
 
 .modal-form-agreement-link {
