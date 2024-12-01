@@ -654,7 +654,7 @@ img {
 .modal-form {}
 
 .modal-form-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-form-label {
@@ -763,7 +763,7 @@ img {
 
 input[type="checkbox"]:checked + .modal-form-agreement-text .modal-form-checkbox {
   border: none;
-  fill: #F4F4FD;
+  background-color: #404bbf;
 } 
 
 .modal-form-agreement-link {
