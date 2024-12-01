@@ -562,6 +562,71 @@ img {
   fill: #f4f4fd;
 }
 
+.footer-subscribe {
+margin-left: 80px;
+}
+
+.footer-subscribe-caption {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-subscribe-form {
+  display: flex;
+  /* gap: 24px;  */
+}
+
+.footer-subscribe-label {}
+
+.footer-subscribe-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.footer-subscribe-input::placeholder {
+  color: #ffffff;
+  padding-left: 16px;
+}
+
+.footer-subscribe-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 24px;
+
+  min-width: 165px;
+  height: 40px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+
+  cursor: pointer;
+  background-color: #4D5AE5;
+  border: none;
+  border-radius: 4px;
+}
+
+.icons-footer-subscribe {
+  margin-left: 16px;
+}
+
 /* Region Modal */
 
 .backdrop {
@@ -731,6 +796,10 @@ img {
 
 /* Custom Checkbox ver.1 */
 
+.modal-form-field-comment {
+  margin-bottom: 16px;
+}
+
 .modal-form-agreement {
   margin-bottom: 24px;
 }
@@ -764,6 +833,7 @@ img {
 input[type="checkbox"]:checked + .modal-form-agreement-text .modal-form-checkbox {
   border: none;
   background-color: #404bbf;
+  fill: #F4F4FD;
 } 
 
 .modal-form-agreement-link {
